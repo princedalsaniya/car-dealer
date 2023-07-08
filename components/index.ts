@@ -3,11 +3,15 @@
   Author      : Prince Dalsaniya
 */
 
-// imports
+// Imports
 import CustomBtn from './CustomBtn'
+import Footer from './Footer'
 import Hero from './Hero'
+import Navbar from './Navbar'
 
 export {
   Hero,
-  CustomBtn
+  CustomBtn,
+  Navbar,
+  Footer
 }

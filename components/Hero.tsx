@@ -8,7 +8,7 @@
 
 'use client'
 
-// imports
+// Imports
 import CustomBtn from "./CustomBtn"
 import Image from "next/image"
 

@@ -9,7 +9,7 @@
 // Imports
 import Link from "next/link"
 import Image from "next/image"
-import { CustomBtn } from "./"
+import CustomBtn from "./CustomBtn"
 
 const Navbar = () => {
   return (

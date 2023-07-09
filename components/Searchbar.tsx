@@ -10,7 +10,7 @@
 
 // Imports
 import { useState } from "react"
-import { SearchManufacturer } from "./"
+import SearchManufacturer from "./SearchManufacturer";
 
 const SearchBar = () => {
   const [manufacturer, setManufacturer] = useState('');

@@ -9,8 +9,8 @@
 'use client'
 
 // Imports
-import { CustomBtn } from "./"
 import Image from "next/image"
+import CustomBtn from "./CustomBtn"
 
 const Hero = () => {
 

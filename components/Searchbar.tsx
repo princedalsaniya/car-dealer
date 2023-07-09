@@ -13,7 +13,7 @@ import { useState } from "react"
 import { SearchManufacturer } from "./"
 
 const SearchBar = () => {
-  const [manufracturer, setMenufracturer] = useState('');
+  const [manufacturer, setManufacturer] = useState('');
   const handleSearch = () => {}
 
   return (
@@ -23,8 +23,8 @@ const SearchBar = () => {
     >
       <div className="searchbar__item">
         <SearchManufacturer 
-          manufracturer={manufracturer}
-          setManufracturer={setMenufracturer}
+          manufacturer={manufacturer}
+          setManufacturer={setManufacturer}
         />
       </div>
     </form>

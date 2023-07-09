@@ -4,7 +4,7 @@
 */
 
 // imports
-import React, { MouseEventHandler, SetStateAction } from "react";
+import { MouseEventHandler } from "react";
 
 export interface CustomButtonProps {
   title: string;
@@ -14,6 +14,6 @@ export interface CustomButtonProps {
 }
 
 export interface SearchManufracturerProps {
-  manufracturer: string,
-  setManufracturer: (manufracturer: string) => void;
+  manufacturer: string,
+  setManufacturer: (manufracturer: string) => void;
 }

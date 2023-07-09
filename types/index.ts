@@ -4,11 +4,16 @@
 */
 
 // imports
-import { MouseEventHandler } from "react";
+import React, { MouseEventHandler, SetStateAction } from "react";
 
 export interface CustomButtonProps {
   title: string;
   containerStyles?: string;
   handleClick?: MouseEventHandler<HTMLButtonElement>
   btnType?: "button" | "submit"
+}
+
+export interface SearchManufracturerProps {
+  manufracturer: string,
+  setManufracturer: (manufracturer: string) => void;
 }
